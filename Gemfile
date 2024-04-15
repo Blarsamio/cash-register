@@ -15,7 +15,7 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
-gem "jsbundling-rails"
+# gem "jsbundling-rails" => removed
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -67,3 +67,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "vite_rails"
+# added vite_rails to the Gemfile
+
+gem "vite_ruby"
+# added vite_ruby to the Gemfile
